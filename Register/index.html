@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <p>Register Now</p>
+        <div class="form-control">
+          <input type="text" id="username" placeholder="Username"  />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <input type="email" id="email" placeholder="Email"  />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confirm Password"
+            
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control gender">
+          <select id="gender" />
+          <option value="male"> Male</option />
+          <option value="female"> Female</option>
+          <option value="other" /> Other</option>
+          </select>
+        </div>
+        <input id="submit" type="submit" value="Register" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
