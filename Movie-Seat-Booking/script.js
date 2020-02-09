@@ -5,6 +5,7 @@ const total = document.querySelector(".total");
 const price = document.querySelector("#price");
 const movie = document.querySelector("#movie");
 const cost = document.querySelector("#cost");
+const reset = document.querySelector("#reset");
 
 let ticketPrice = +movie.value;
 cost.innerText = ticketPrice;
@@ -82,3 +83,8 @@ const populateUI = () => {
 };
 
 populateUI();
+
+reset.addEventListener("click", () => {
+  localStorage.clear();
+  location.reload();
+});

@@ -100,3 +100,10 @@ p {
 p span {
   color: #6feaf6;
 }
+
+button {
+  background-color: #3498db;
+  cursor: pointer;
+  border-color: #3498db;
+  color: #fff;
+}
